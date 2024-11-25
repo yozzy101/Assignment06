@@ -18,7 +18,7 @@ namespace Assignment06
             InitializeComponent();
         }
 
-        private string connectionString = @"server=(localdb)\MSSQLLocalDB;database=Dominican;Trusted_connection=true";
+        private string connectionString = @"server=(localdb)\MSSQLLocalDB;database=School;Trusted_connection=true";
 
 
         private void ViewMajor_Load(object sender, EventArgs e)

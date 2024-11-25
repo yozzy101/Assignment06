@@ -51,7 +51,7 @@ namespace Assignment06
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error saving student: " + ex.Message);
+                    MessageBox.Show("Error in student saving: " + ex.Message);
                 }
             }
             this.DialogResult = DialogResult.OK;
